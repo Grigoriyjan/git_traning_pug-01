@@ -1,0 +1,49 @@
+.achieve
+{
+  background: linear-gradient(rgba(#23c557,0.9),rgba(#23c557,0.9)), url(../img/achievement_bg.jpg) 0 0 / cover;
+  height: 280px;
+}
+
+.down-cards{
+  display: flex;
+}
+.down-item {
+  position: relative;
+}
+.in-border{
+  position: absolute;
+  top: 70px;
+  left: 81px;
+
+}
+.border-img{
+  height: 260px;
+  margin-top:15px ;
+  margin-left: 23px;
+}
+.img__down{
+  margin-left: 30px;
+  width: 72px;
+  height: 60px;
+}
+.number{
+  font-size: 48px;
+  line-height: 18px;
+  color: #fefefe;
+  font-weight: 700;
+  font-family: "Poppins";
+  text-align: center;
+}
+.down-name{
+  font-size: 18px;
+  color: #fefefe;
+  font-weight: 700;
+  text-align: center;
+}
+.border{
+  width: 82px;
+  height: 2px;
+  background-color: #ffffff;
+  margin-top: 151px;
+  margin-left: -19px;
+}
