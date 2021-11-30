@@ -1,6 +1,9 @@
-footer.footer 
-    .container 
-        a.link-top(href="#top") 
+footer.footer
+    .link-container
+        .link-bg
+            .in-bg 
+                a.top-link(href="#top") ^
+    .container
         .footer-interaction
             .appnest-contact 
                 img.footer-logo(src="../img/footer-logo.png", alt="")
@@ -12,28 +15,32 @@ footer.footer
                     img.media-img(src="../img/Linkedin.png", alt="")
                     img.media-img(src="../img/Instagram.png", alt="")
             ul.resources
-                h1.list-tile Resources
-                li.res-list Watch Demo Video
-                li.res-list Documents
-                li.res-list Intigrations
-                li.res-list Creating Tasks
-                li.res-list Themes
-                li.res-list Plugin
+                h1.list-title Resources
+                li.p-list Watch Demo Video
+                li.p-list Documents
+                li.p-list Intigrations
+                li.p-list Creating Tasks
+                li.p-list Themes
+                li.p-list Plugin
             ul.company 
-                h1.list-tile Company
-                li.co-list Live Chanel
-                li.co-list Latest Peoject
-                li.co-list Manage Work
-                li.co-list Quick Start Guide
-                li.co-list Feedback
-                li.co-list Support Center
-            .newsletter 
+                h1.list-title Company
+                li.p-list Live Chanel
+                li.p-list Latest Peoject
+                li.p-list Manage Work
+                li.p-list Quick Start Guide
+                li.p-list Feedback
+                li.p-list Support Center
+            .newsletter
+                h1.list-title Newsletter
                 p.footer-paragraph Subscribe to our newsletter for latest update
                 input.footer-input(type="text" placeholder="Enter your name")
-                img.footer-icon(src="", alt="")
-    .footer-end 
-        p.copy © 2017 
-        span.copy-wrod Equalizzer   |   All Rights Reserved By 
-        span.copy-word  Abdullah Al Mamun   | Envato Marketplace            
+                .icon-bg
+                    img.input-icon(src="../img/link-icon.png", alt="")
+    .footer-end
+        .container
+            p.copy © 2017 
+             span.copy-word  Equalizzer   
+             | All Rights Reserved By 
+             span.copy-word  Abdullah Al Mamun   | Envato Marketplace            
 
 
