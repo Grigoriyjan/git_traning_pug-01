@@ -1,0 +1,78 @@
+.news-hero
+{
+    text-align: center;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 140px;
+}
+:root
+{
+    --color:rgb(0,207,241);
+}
+.news-margin
+{
+    margin-top: 65px;
+}
+.news-description
+{
+    font-size: 15px;
+    color: #454545;
+    font-weight: 400;
+    font-family: "Poppins";
+}
+.word
+{
+    color: var(--color);  
+}
+.in-post
+{
+    padding:20px;
+}
+.posts
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 75px;
+}
+.post-img
+{
+    width: 100%;
+}
+.post-item
+{
+    max-width: 350px;
+    border: 1px solid rgb(236,236,236);
+    filter: drop-shadow(0px 30px 30px rgba(0,0,0,0.05));
+}
+.post-name
+{
+    color: #474747;
+    font-weight: 700;
+    font-family: "Poppins";
+    cursor: pointer;
+}
+.post-date
+{
+    color: #474747;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "Poppins";
+}
+.post-word
+{
+    color: rgb(141,141,141);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Poppins";
+}
+.news-link
+{
+    font-size: 16px;
+    color: #474747;
+    font-weight: 700;
+    font-family: "Poppins";
+}
+.post-name:hover, .news-link:hover
+{
+    color: var(--color);
+}
